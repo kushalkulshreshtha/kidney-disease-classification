@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: classifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/kushalkulshreshtha/kidney-disease-mlops
+Author: kushalkulshreshtha
+Author-email: kushal.kulshreshtha@okstate.edu
+Project-URL: Bug Tracker, https://github.com/kushalkulshreshtha/kidney-disease-mlops/issues
