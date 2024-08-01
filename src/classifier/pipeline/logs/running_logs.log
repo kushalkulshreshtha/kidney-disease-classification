@@ -1,0 +1,16 @@
+[2024-08-01 15:37:05,336: INFO: stage_02_prepare_base_model >>>>> Stage Prepare Base Model Stage started >>>>>]
+[2024-08-01 15:37:05,336: ERROR: stage_02_prepare_base_model [Errno 2] No such file or directory: 'config\\config.yaml']
+Traceback (most recent call last):
+  File "stage_02_prepare_base_model.py", line 21, in <module>
+    obj.main()
+  File "stage_02_prepare_base_model.py", line 12, in main
+    config_manager = ConfigurationManager()
+  File "c:\users\kushal\documents\github\kidney-disease-classification\src\classifier\config\configuration.py", line 8, in __init__
+    self.config = read_yaml(config_filepath)
+  File "C:\Users\Kushal\miniconda3\envs\kidney-disease\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "c:\users\kushal\documents\github\kidney-disease-classification\src\classifier\utils\common.py", line 37, in read_yaml
+    raise e
+  File "c:\users\kushal\documents\github\kidney-disease-classification\src\classifier\utils\common.py", line 30, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'
