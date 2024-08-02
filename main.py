@@ -4,6 +4,7 @@ from classifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelPipe
 
 STAGE_NAME = "Data Ingestion Stage"
 
+print("\n*******************************************************\n")
 
 try:
     logger.info(f'>>>>> Stage {STAGE_NAME} started >>>>>')
@@ -27,3 +28,5 @@ try:
 except Exception as e:
     logger.exception(e)
     raise e
+
+print("\n*******************************************************\n")

@@ -10,3 +10,7 @@ data_ingestion:
 prepare_base_model:
   root_dir: artifacts/base_model/
   base_model_path: artifacts/base_model/base_model.pt
+
+training:
+  root_dir: artifacts/training
+  trained_model_path: artifacts/training/model.pt
